@@ -1,0 +1,12 @@
+Dim i as Integer
+Dim Max as Integer 
+
+elements = listbox1
+
+For i = 0 to 99
+    if max < elements.list(i) then
+      max = elements.list(i) 
+     end if 
+Next 
+  
+ 
